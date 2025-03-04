@@ -121,6 +121,12 @@ form {
   color: red;
 }
 
+#items-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* HIDDEN ELEMENTS */
 
 .hidden {
