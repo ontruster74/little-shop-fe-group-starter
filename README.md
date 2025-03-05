@@ -3,7 +3,7 @@
 ### Abstract:
 Q: Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?
 
--This app allows easy sorting and managment of a database of merchants and their assosciated items.
+- This app allows easy sorting and managment of a database of merchants and their assosciated items.
 
 ### Installation Instructions:
 Q: What steps does a person have to take to get your app cloned down and running?
@@ -24,7 +24,7 @@ GIF Link: [GIF](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnFxZzBic2Nqb3
 ### Context:
 Q: Give some context for the project here. How long did you have to work on it? What specific work/improvements did you contribute to this FE application?
 
--Our frontend was finished in about a day and a half mainly implementing required functionality but we made sure to take time to ensure that we added style to make the app more useable.
+- Our frontend was finished in about a day and a half, mainly implementing required functionality, but we made sure to take time to ensure that we added style to make the app more useable.
 
 ### Contributors:
 Q: Who worked on this application? Link to your GitHub. Consider also providing LinkedIn link.
@@ -34,7 +34,7 @@ Q: Who worked on this application? Link to your GitHub. Consider also providing 
 ### Learning Goals:
 Q: What were the learning goals of this project? What tech did you work with?
 
--The goals for this project were to learn how to build an api working in a group.
+- The goals for this project were to learn how to build an api working in a group.
 
 Tech used:
 * github
