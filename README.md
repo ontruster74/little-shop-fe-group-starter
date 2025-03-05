@@ -1,4 +1,4 @@
-# Hang in There  
+# Little Shop - Mod 2 Group Project - FE Half  
 
 ### Abstract:
 Q: Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?
