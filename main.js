@@ -163,10 +163,10 @@ function displayItems(items) {
     itemsView.innerHTML += `
      <article class="item" id="item-${item.id}">
           <img src="" alt="">
-          <h2>${item.attributes.name}</h2>
-          <p>${item.attributes.description}</p>
-          <p>$${item.attributes.unit_price}</p>
-          <p class="merchant-name-in-item">Merchant: ${merchant}</p>
+          <h2>${item.attributes.name}</h2> 
+          <p>${item.attributes.description} <br>
+          $${item.attributes.unit_price} <br>
+          Merchant: ${merchant}</p>
         </article>
     `
   })

@@ -11,7 +11,7 @@
       <header>
         <h1>Little Shop</h1>
         <h2>Admin Portal</h2>
-      </header>
+      </header> <!-- Boxed Tittle on Upper Left Hand-->
       <nav>
         <button id="merchants-nav" class="active-nav">
           <h2>Merchants</h2>
@@ -19,21 +19,25 @@
         <button id="items-nav">
           <h2>Items</h2>
         </button>
-      </nav>
-    </aside>
+      </nav> <!-- Left Hand Nav Buttons -->
+    </aside> <!-- Left Hand Side Bar-esque-->
     <main>
+      <!--Top of Merchant List: description, Buttons to: Add to List & Sort List-->
       <section class="display-options">
         <h3>Showing: <span id="showing-text">All Merchants</span></h3>
         <button id="add-new-button" class="add-new-button" data-state="merchant">+ Add New</button>
         <button id="sort-merchants-button">Sort Merchants A-Z</button>
-      </section>
+      </section> 
+       <!--4 Items: desc changes, +button hidden, SortButton(Remained "Merchant")-->
       <section id="add-new-options">
+        <!--Merchant Page Add to List Option: Adds Merchant -->
         <form id="new-merchant-form" class="hidden">
           <label for="new-merchant-name">New Merchant Name</label>
           <input id="new-merchant-name" name="new-merchant-name" type="text">
-          <button id="submit-merchant" class="submit">Submit</button>
-        </form>
+          <button id="submit-merchant" class="submit">Submit</button>  <!-- Line 17 Main -->
+        </form>          <!--Line 27 Button Result: +Merchant Form  -->
         <p id="status-message" class="hidden"><!-- Status message here! --></p>
+         <!-- Items Page Add to List Option: Adds Item (UNAVAILABLE ON PAGE)-->
         <form id="new-merchant-form" class="hidden">
           <label for="new-item-name">New Item Name</label>
           <input id="new-item-name" name="new-item-name" type="text">
@@ -46,13 +50,13 @@
       </section>
       <section id="merchants-view" class="view">
           <!-- Data will be displayed here -->
-        </section>
-        <section id="items-view" class="view hidden">
+      </section>
+      <section id="items-view" class="view hidden">
           <!-- Data will be displayed here -->
-        </section>
-        <section id="single-merchant-view" class="view hidden">
+      </section>
+      <section id="single-merchant-view" class="view hidden">
           <!-- Data will be displayed here -->
-        </section>
+      </section>
     </main>
     <script type="module" src="/main.js"></script>
   </body>

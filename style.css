@@ -78,8 +78,9 @@ form {
   display: flex;
 }
 
-.item,
-.merchant {
+/*List Formating for Both Pages*/
+.item, /*164 main.js*/
+.merchant { /*179 main.js*/
   flex-wrap: wrap;
   display: flex;
   background-color: rgb(251, 251, 251);
@@ -91,29 +92,54 @@ form {
   box-shadow: 1px 5px 1px rgba(1, 245, 192, 0.989); /* Optional: Adds depth */
 }
 
-.item {
-  width: 95%; /* made bigger to fill screen */
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-}
-
+/*Merchant Specific Formatting for Each List Item*/
 .merchant {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.view-items-button {
-  padding: 15px;
-  margin-right: 10px;
-}
-
+/* Merchant Listing Title */
 .merchant-name {
   padding-left: 10px;
   margin: 10px;
 }
 
+/*On Sight Buttons*/
+.view-merchant-items {
+  background-color: rgb(175, 238, 238);
+  padding: 5px;
+  margin-right: 1px;
+}
+
+.edit-merchant {
+  background-color: rgb(175, 238, 238);
+  padding: 4px;
+  margin-right: 1px;
+}
+
+.delete-merchant {
+  background-color: rgb(175, 238, 238);
+  padding: 3px;
+  margin-right: 1px;
+} 
+
+/* Hidden Merchant Editing Form Buttons */
+.submit-merchant-edits {
+  background-color: rgb(175, 238, 238);
+  padding: 3px;
+  margin-right: 1px;
+} 
+
+.discard-merchant-edits {
+  background-color: rgb(175, 238, 238);
+  padding: 3px;
+  margin-right: 1px;
+} 
+
+/* Head of List for Merchants Page*/
+/*(Items Page: descrip update, no add item button, merchant sort remains & useless */
+/*Line 26 html*/
 .display-options {
   display: flex;
   align-items: center;
@@ -123,9 +149,13 @@ form {
   margin-left: 15px;
 }
 
-.merchant-name-in-item {
+
+
+/*Item info Combined in 1P w/ br's not 3P's so class assigned below became unecessary*/
+/* .merchant-name-in-item {
   display: inline;
-}
+  align-items: left;
+} */
 
 .success {
   color: green;
@@ -135,10 +165,15 @@ form {
   color: red;
 }
 
+
+
+
+/*Items View Now*/
 #items-display {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+
 }
 
 /* HIDDEN ELEMENTS */
